@@ -1,0 +1,92 @@
+{
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    header {
+        width: 100%;
+        height: 100px;
+        background-color: #6B4E71;
+        color: white;
+        font-style: normal;
+        font-size: 30px;
+        align-items: flex-end;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-content {
+        display: flex;
+        align-items: center;
+    }
+
+    h6 {
+        margin-right: auto;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: flex-end;
+        gap: 10px;
+    }
+
+    .buttons button {
+        Width: 100;
+        Height: 30;
+        Margin: 10;
+        background-color: #6B4E71;
+        color: white;
+        display: flex;
+        align-items: flex-end;
+        gap: 10px;
+        border: none;
+    }
+
+    .contenedor1 {
+        background-color: #C2B2B4;
+        padding: 20px;
+    }
+
+    .caja1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .avatar {
+        width: 100px;
+        align-items: center;
+    }
+    .contenedor2 {
+        max-width:420px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        grid-gap: 20px; 
+    }
+    .caja2 {
+        max-width:420px;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+    }
+    .footer {
+        background-color: #53687E;
+
+    }
+
+    h {
+        background-color: #1A252F;
+        width: 100%;
+        height: 50px;
+        text-align: start;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        font-style: normal;
+        font-size: 15px;
+    }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="buttons">
+                <Button Name="Portaofolio" Content="Portafolio" click="Button_Click">PORTAFOLIO</Button>
+                <Button Name="Sobre Mí" Content="Sobre mí" click="Button_Click">SOBRE MÍ</Button>
+                <Button Name="Contacto" Content="Contacto" click="Button_Click">CONTACTO</Button>
+            </div>
+            <h6>NOMBRE</h6>
+        </div>
+    </header>
+    <Section class="contenedor1">
+        <div class="caja1">
+            <img class="avatar" src="img/avataaars.svg" alt="avatar">
+            <h1 class="titulo">MI NOMBRE</h1>
+            <P class="brochure">Maquetador/a Web-Entusiaste-Autodidacta</P>
+        </div>
+    </Section>
+    <Section class="contenedor2">
+        <div class="caja2">
+            <h2 class="titulo">PORTAFOLIO</h2>
+            <img class="Lemon Pie" src="img/lemon-pie.jpeg" alt="Lemon Pie">
+            <P class="Lemon Pie">Lemon Pie</P>
+            <img class="CV Batman" src="img/CVBatman.png" alt="CV Batman">
+            <P class="CV Batman">CV Batman</P>
+            <img class="Supers" src="img/super.png" alt="Supers">
+            <P class="Supers">Supers</P>
+            <img class="Pet Shop" src="img/petshop.jpeg" alt="Pet Shop">
+            <P class="Pet Shop">Pet Shop</P>
+            <img class="Pizzeria" src="img/piza.jpeg" alt="Pizzeria">
+            <P class="Pizzeria">Pizzeria</P>
+            <img class="Game Shop" src="img/gameshop.jpeg" alt="Game Shop">
+            <P class="Game Shop">Game Shop</P>
+        </div>
+    </Section>
+    <Section class="contenedor3">
+        <div class="caja3">
+            <h3 class="SOBRE MÍ">SOBRE MÍ</h3>
+            <P class="SOBRE Mí">maquetador web apasionado y entusiasta con una sólida formación autodidacta. Desde que
+                descubrí el mundo del desarrollo web, me he dedicado a aprender y mejorar continuamente mis habilidades,
+                adaptándome a las últimas tendencias y tecnologías.</P>
+            <Button Name="Descargar CV" Content="Descargar CV" click="Button_Click">Descargar CV</Button>
+        </div>
+    </Section>
+    <form action="/contactame" method="post">
+        <p>
+            <label for="Nombre-Completo">Nombre completo</label><br>
+            <input type="text" name="Nombre-Completo" id="Nombre-Completo" placeholder="Ingrese su nombre completo"
+                required>
+        </p>
+        <p>
+            <label for="Correo-electronico">Correo electronico</label><br>
+            <input type="email" name="Correo-electronico" id="Correo-electronico" placeholder="Ej: username@correo.co"
+                required>
+        </p>
+        <p>
+            <label for="telefono">Telefono</label>
+            <input type="tel" name="telefono" id="telefono" required>
+        </p>
+        <p>
+            <label for="Mensaje">Deje su mensaje</label>
+            <textarea name="Mensaje" id="Mensaje"></textarea>
+        </p>
+        <button type="submit">Enviar</button>
+        <footer>
+            <div class="social-media">
+                <h4 class="subtitulos">MI LUGAR</h4>
+                <p>Calle N</p>
+                <p>Ciudad, Estado CP</p>
+                <a href="https://www.facebook.com/tuperfil" img src="img/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/tuperfil" img src="img/Instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.linkedin.com/in/tuperfil" img src="img/linkedin.png" alt="linkedin">
+                </a>
+                <h5 class="subtitulos">SOBRE MÍ</h5>
+                <p>Soy una persona creativa y con ansias de aprender. Tengo conocimientos de HTML,CSS y Bootstrap</p>
+            </div>
+        </footer>
+        <h6>Copyright Mi sitio 2021</h6>
+</body>
+
+</html>
